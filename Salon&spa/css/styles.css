@@ -1,0 +1,250 @@
+/* for all */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.clear-fix{
+    clear: both;
+    float: none;
+}
+a{
+    text-decoration: none;
+    color: #FF7878;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+a:hover{
+    color: #FF00E4;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    
+}
+.btn-primary{
+    background-color:#FF7878 ;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #FF00E4;
+    color: white;
+}
+h2{
+    color: #B24080;
+    font-size: 2rem;
+    margin: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position:absolute;
+    bottom: 50px;
+    left: 30%;
+}
+/* Navbar */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* Services Search */
+
+.service-search{
+    background-image: url('../images/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0 ;
+}
+.service-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border:none;
+    border-radius: 5px;
+}
+/* Categories */
+
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* Services */
+.services{
+    background-color:#FCD2D1;
+    padding: 4% 0;
+}
+.services-box{
+  
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+.service-img{
+    width: 20%;
+    float: left;
+    
+}
+.service-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.service-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+
+}
+.service-detail{
+    font-size: 1rem;
+    color: #FE8F8F;
+}
+
+/* social */
+
+.social ul{
+    list-style-type: none;
+    margin: 2%;
+
+}
+.social ul li{
+    display: inline;
+    padding: 3%;
+}
+.social-img{
+    width: 3%;
+}
+
+/* Register */
+
+/* Order */
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}    
+.success{
+    padding: 2%;
+    color: green ;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    align-items: center;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+} 
+
+
+/* Responsive  */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .service ul{
+        text-align: center;
+    }
+    .service-search input[type="search"]{
+        width: 90%;
+        padding:2%;
+        margin-bottom: 3%;
+    }
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    .box-3{
+        width: 90%;
+        margin:4% auto;
+    }
+    
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 1%;
+    }
+    .service{
+        padding: 20% 0;
+    }
+    .service-box{
+        width: 95%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5%;
+    }
+    .social-img{
+        width: 10%;
+    }
+    .order{
+        width: 100%;
+    }
+}
